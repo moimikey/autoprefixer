@@ -28,7 +28,7 @@
     "@babel/register": "^7.9.0",
     "browserslist": "^4.11.0",
     "caniuse-lite": "^1.0.30001036",
-    "chalk": "^2.4.2",
+    "chalk": "^3.0.0",
     "normalize-range": "^0.1.2",
     "num2fraction": "^1.2.2",
     "postcss": "^7.0.27",
