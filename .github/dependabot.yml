@@ -1,0 +1,45 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "10:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: caniuse-lite
+    versions:
+    - 1.0.30001181
+    - 1.0.30001183
+    - 1.0.30001185
+    - 1.0.30001187
+    - 1.0.30001189
+    - 1.0.30001191
+    - 1.0.30001192
+    - 1.0.30001194
+    - 1.0.30001196
+    - 1.0.30001197
+    - 1.0.30001198
+    - 1.0.30001199
+    - 1.0.30001200
+    - 1.0.30001202
+    - 1.0.30001203
+    - 1.0.30001204
+    - 1.0.30001205
+    - 1.0.30001207
+    - 1.0.30001208
+    - 1.0.30001214
+    - 1.0.30001216
+    - 1.0.30001218
+  - dependency-name: lint-staged
+    versions:
+    - 10.5.3
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
+  - dependency-name: elliptic
+    versions:
+    - 6.5.3
+  - dependency-name: chalk
+    versions:
+    - 4.1.0
